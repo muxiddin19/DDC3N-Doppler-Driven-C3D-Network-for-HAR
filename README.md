@@ -26,3 +26,16 @@ While the superiority of 3D convolutional neural networks (3DCNN) over graph con
 - pytest-runner
 - xdoctest >= 0.10.0
 - yapf
+
+# Data Preparation 
+## ONLY POSE DATA
+
+This is the code that is post-processed to put the result from pose extraction mentioned above into poseC3D.
+
+python create_data.py --folders 20220705 20220706 20220707 20220708 20220711 --trainset True --full True You should check all the details inside the code.
+
+Trainset True is a code that creates a csv and also creates a training set, so it has to be True to make a train test set, Full True is True: Make all normal error data. False: make only normal It's designed to be written like this.
+
+The data created by Trainset True is for PoseC3D and may be different from the data format desired by eLancers.
+
+The output of alphapose is in the form of a simple json file that does not contain metadata. First of all, there is a code to create a csv because the data type you want in eLancer can be csv.
