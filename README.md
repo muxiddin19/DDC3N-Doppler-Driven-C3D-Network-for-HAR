@@ -49,10 +49,13 @@ It is not mandatory, but help to increase the relted performance of the last mod
 ## Dopler driven block
 
 ### Extracting CWSTB features
+- The related codes will be uploaded soon.
 
 ### Extracting Doppler features
+- The related codes will be uploaded soon.
 
 ## Concatenation of the obtained features
+- The related codes will be uploaded soon.
 
 # Training Process
 - python tools/train.py pth/figure_normal/figure_normal_config.py --work-dir work_dirs/figure_normal --validate --test-best --gpus 2 --seed 0 --deterministic
