@@ -36,7 +36,6 @@ An example of a https://drive.google.com/drive/folders/127-hhaBebuUMqA38OxyMtLCr
 ### Skeleton Data
 We uploaded 20220905, 20220914 folders as an example, you can download and use the during the experiment, while whole data is not available due to the completing the uploading process. https://drive.google.com/drive/folders/16N--bblvs2vtoU4tcqduxrEk9aTA2WK1?usp=share_link
 
-
 ## Only Pose data
 
 This is the code that is post-processed to put the result from pose extraction mentioned above into the model. The result is the splitted data into three parts, training, testing and validation sets, that is ready for the experiments. Where 20220705, 20220706, ... are folders containing the related pose data, that is in the form of a simple json file that does not contain metadata.
@@ -105,12 +104,9 @@ As traing requires huge of time, there might be cases whre training process is i
 
 Testing code differs from the training one with the weights, and evaluation metrics, while both use the same config file.
 
-
-
   ## Citation
 
 - The related citation will be updated soon.
-
 
   ## Acknowledgement
 
