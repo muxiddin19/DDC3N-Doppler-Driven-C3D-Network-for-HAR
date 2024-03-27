@@ -29,9 +29,13 @@ While the superiority of 3D convolutional neural networks (3DCNN) over graph con
 
 # Data Preparation 
 ## Data examples
-
+### Video Data
 The images for each class were collected and compressed in the Google Drive below, and you can download them from the folder below. 
 An example of a https://drive.google.com/drive/folders/127-hhaBebuUMqA38OxyMtLCrCzLjyYNA?usp=sharing skeleton rendered video is shown in the link https://drive.google.com/file/d/1wjaW8oeZeVYRyd-34HXQpJPhIukIa5Pk/view?usp=sharing .
+
+### Skeleton Data
+We uploaded 20220905, 20220914 folders as an example, you can download and use the during the experiment, while whole data is not available due to the completing the uploading process. https://drive.google.com/drive/folders/16N--bblvs2vtoU4tcqduxrEk9aTA2WK1?usp=share_link
+
 
 ## Only Pose data
 
