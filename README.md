@@ -28,6 +28,11 @@ While the superiority of 3D convolutional neural networks (3DCNN) over graph con
 - yapf
 
 # Data Preparation 
+## Data examples
+
+The images for each class were collected and compressed in the Google Drive below, and you can download them from the folder below. 
+An example of a https://drive.google.com/drive/folders/127-hhaBebuUMqA38OxyMtLCrCzLjyYNA?usp=sharing skeleton rendered video is shown in the link https://drive.google.com/file/d/1wjaW8oeZeVYRyd-34HXQpJPhIukIa5Pk/view?usp=sharing .
+
 ## Only Pose data
 
 This is the code that is post-processed to put the result from pose extraction mentioned above into the model. The result is the splitted data into three parts, training, testing and validation sets, that is ready for the experiments. Where 20220705, 20220706, ... are folders containing the related pose data, that is in the form of a simple json file that does not contain metadata.
