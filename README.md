@@ -118,4 +118,6 @@ This repo is actively exploited https://github.com/open-mmlab/mmaction2, https:/
 
 Thanks to the original authors for their awesome works!
 
-  
+  ## Contact
+
+  For any questions, feel free to contact: trinity@inha.ac.kr, muhiddin1979@inha.edu.
