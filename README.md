@@ -46,6 +46,14 @@ To increase performance of the HAR model, we exluded frames from the given data,
 - python cut_data_through_the given_metadata.py --folders 20220705 20220706 20220707 20220708 20220711 --trainset True --full True 
 It is not mandatory, but help to increase the relted performance of the last model.
 
+## Dopler driven block
+
+### Extracting CWSTB features
+
+### Extracting Doppler features
+
+## Concatenation of the obtained features
+
 # Training Process
 - python tools/train.py pth/figure_normal/figure_normal_config.py --work-dir work_dirs/figure_normal --validate --test-best --gpus 2 --seed 0 --deterministic
 - for the further explanation of the code, please refer to train.py file which provides the related info in detailes
