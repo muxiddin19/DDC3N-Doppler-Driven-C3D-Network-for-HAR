@@ -80,6 +80,10 @@ https://drive.google.com/file/d/11Hp2n4K-u1674ddxvomFlP-0AcEmpwRl/view?usp=share
 ## Concatenation of the obtained features
 - The related codes will be uploaded soon, while modification process is done.
 
+## Visualization of the final data
+
+![image](https://github.com/muxiddin19/DDC3N--Doppler-Driven-Convolutional-3D-Network-for-Human-Action-Recognition/assets/54941476/cf84b2ca-5150-4144-948c-ea034f735042)
+
 # Training Process
 - python tools/train.py pth/figure_normal/figure_normal_config.py --work-dir work_dirs/figure_normal --validate --test-best --gpus 2 --seed 0 --deterministic
 - for the further explanation of the code, please refer to train.py file which provides the related info in detailes
