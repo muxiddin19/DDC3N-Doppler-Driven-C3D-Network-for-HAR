@@ -57,7 +57,7 @@ It is not mandatory, but help to increase the relted performance of the last mod
 
 ## Splitted Pose Dataset, pretrained weights, and the related config files for downloading:
 If you train only with pose data you can download the related data
-There are each folder contains 4 files.
+There are total four folders for CrossFit normal, CrossFit full, Figure Skating normal,  and each folder contains 4 files.
 
 They are:
 1. pth file for saved weights
@@ -65,7 +65,7 @@ They are:
 3. test pickle file 
 4. validation pickle file
    
-Train file was not uploaded due to its huge size, however, you can us one of two uploaded file as a training, and split another one for testing and validation set, depending on your experiment setting.
+Train file was not uploaded due to its huge size, however, you can use one of two uploaded file as a training, and split another one for testing and validation set, depending on your experiment setting.
 
 https://drive.google.com/file/d/11Hp2n4K-u1674ddxvomFlP-0AcEmpwRl/view?usp=share_link
 
@@ -94,3 +94,24 @@ As traing requires huge of time, there might be cases whre training process is i
 - python tools/train.py pth/figure_normal/figure_normal_config.py --resume-from pth/figure_normal/figure_normal.pth --work-dir work_dirs/figure_normal_from_pretrained --validate --test-best --gpus 2 --seed 0 --deterministic
 
    While pretrained weight is given it can used, to save time, human and computational expenses.
+
+  ## Testing Process
+
+- python tools/test.py pth/figure_normal/figure_normal_config.py --work-dir work_dirs/figure_normal/last.pth --eval top_k_accuracy mean_class_accuracy --out result_fig_norm_last.pkl
+
+Testing code differs from the training one with the weights, and evaluation metrics, while both use the same config file.
+
+
+
+  ## Citation
+
+- The related citation will be updated soon.
+
+
+  ## Acknowledgement
+
+This repo is actively exploited https://github.com/open-mmlab/mmaction2, https://github.com/bruceyo/MMNet, https://github.com/open-mmlab/mmaction2/tree/main/configs/skeleton/posec3d, https://github.com/Oli21-chen/STM-spatiotemporal-and-motion-encoding, https://github.com/Jho-Yonsei/HD-GCN, https://github.com/stnoah1/infogcn, https://github.com/Uason-Chen/CTR-GCN/tree/main and other related repos. 
+
+Thanks to the original authors for their awesome works!
+
+  
