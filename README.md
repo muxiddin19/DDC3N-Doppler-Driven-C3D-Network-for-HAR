@@ -40,3 +40,9 @@ You should check all the details inside the code, as location of data might be d
 - Full True is True: Make all normal error data.
 - False: make only normal It's designed to be written like this.
 
+## Cutting the video data through the given metada.
+To increase performance of the HAR model, we exluded frames from the given data, where pose extarction results have low performance. Hence we have metada that has starting_frame, and end_frame values for each data, whre pose extraction model has high performance. After performing the related operation, we have data with only high pose estimation performance.
+python cut_data_through_the given_metadata.py --folders 20220705 20220706 20220707 20220708 20220711 --trainset True --full True 
+It is not mandatory, but help to increase the relted performance of the last model.
+
+
