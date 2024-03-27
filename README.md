@@ -55,6 +55,20 @@ To increase performance of the HAR model, we exluded frames from the given data,
 - python cut_data_through_the given_metadata.py --folders 20220705 20220706 20220707 20220708 20220711 --trainset True --full True 
 It is not mandatory, but help to increase the relted performance of the last model.
 
+## Splitted Pose Dataset, pretrained weights, and the related config files for downloading:
+If you train only with pose data you can download the related data
+There are each folder contains 4 files.
+
+They are:
+1. pth file for saved weights
+2. config.py file
+3. test pickle file 
+4. validation pickle file
+   
+Train file was not uploaded due to its huge size, however, you can us one of two uploaded file as a training, and split another one for testing and validation set, depending on your experiment setting.
+
+https://drive.google.com/file/d/11Hp2n4K-u1674ddxvomFlP-0AcEmpwRl/view?usp=share_link
+
 ## Dopler driven block
 
 ### Extracting CWSTB features
