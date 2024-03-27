@@ -45,4 +45,15 @@ To increase performance of the HAR model, we exluded frames from the given data,
 python cut_data_through_the given_metadata.py --folders 20220705 20220706 20220707 20220708 20220711 --trainset True --full True 
 It is not mandatory, but help to increase the relted performance of the last model.
 
+# Training Process
+- python tools/train.py pth/figure_normal/figure_normal_config.py --work-dir work_dirs/figure_normal --validate --test-best --gpus 2 --seed 0 --deterministic
+- for the further explanation of the code, please refer to train.py file which provides the related info in detailes
+  
+## Resume Interrupted training
+- python tools/train.py configs/skeleton/posec3d/doppler_CF_full.py --work-dir work_dirs/custom_dopp_FC_full --resume-from work-dirs/custom_doppler/latest.pth --validate --test-best --gpus 2 --seed 0 --deterministic
+As traing requires huge of time, there might be cases whre training process is interrupted. It can be resumed from the last saved epoch weight as given in above code.
 
+## Training from the pretrained weights
+
+- python tools/train.py pth/figure_normal/figure_normal_config.py --resume-from pth/figure_normal/figure_normal.pth --work-dir work_dirs/figure_normal_from_pretrained --validate --test-best --gpus 2 --seed 0 --deterministic
+  While pretrained weight is given it can used, to save time, human and computational expenses.
