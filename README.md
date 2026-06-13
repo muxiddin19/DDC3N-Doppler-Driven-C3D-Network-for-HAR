@@ -105,7 +105,7 @@ As traing requires huge of time, there might be cases whre training process is i
 Testing code differs from the training one with the weights, and evaluation metrics, while both use the same config file.
 
   ## Citation
-
+"
 @article{toshpulatov2024ddc3n,
   title={DDC3N: Doppler-driven convolutional 3D network for human action recognition},
   author={Toshpulatov, Mukhiddin and Lee, Wookey and Lee, Suan and Yoon, Hoyoung and Kang, U},
@@ -115,7 +115,7 @@ Testing code differs from the training one with the weights, and evaluation metr
   year={2024},
   publisher={IEEE}
 }
-
+"
   ## Acknowledgement
 
 This repo is actively exploited https://github.com/open-mmlab/mmaction2, https://github.com/bruceyo/MMNet, https://github.com/open-mmlab/mmaction2/tree/main/configs/skeleton/posec3d, https://github.com/Oli21-chen/STM-spatiotemporal-and-motion-encoding, https://github.com/Jho-Yonsei/HD-GCN, https://github.com/stnoah1/infogcn, https://github.com/Uason-Chen/CTR-GCN/tree/main and other related repos. 
