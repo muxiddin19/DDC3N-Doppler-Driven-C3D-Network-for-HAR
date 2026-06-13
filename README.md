@@ -106,7 +106,15 @@ Testing code differs from the training one with the weights, and evaluation metr
 
   ## Citation
 
-- The related citation will be updated soon.
+@article{toshpulatov2024ddc3n,
+  title={DDC3N: Doppler-driven convolutional 3D network for human action recognition},
+  author={Toshpulatov, Mukhiddin and Lee, Wookey and Lee, Suan and Yoon, Hoyoung and Kang, U},
+  journal={IEEE Access},
+  volume={12},
+  pages={93546--93567},
+  year={2024},
+  publisher={IEEE}
+}
 
   ## Acknowledgement
 
